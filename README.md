@@ -192,9 +192,11 @@ I have already provisioned the hosted zome in my AWS account. Now will add the A
 
 ![image](https://github.com/user-attachments/assets/99373c3b-1642-4829-9428-be874273f2e6)
 
-Now access the springboot app using route53 entry:
+Now access the spring-boot app using route53 entry:
 
 ![image](https://github.com/user-attachments/assets/570bc85d-53aa-4f63-9124-b5aa095ae5f6)
+
+![image](https://github.com/user-attachments/assets/2ec85aa0-7ab3-45b1-a024-cbb60270b5de)
 
 
 
