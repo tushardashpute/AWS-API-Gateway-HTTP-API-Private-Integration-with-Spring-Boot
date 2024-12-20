@@ -21,7 +21,6 @@ This repository provides guidance and examples for setting up **AWS API Gateway 
 
 ## Table of Contents  
 
-
 1. Create an Amazon ECS service
 2. Create a VPC link
 3. Create an HTTP API
@@ -30,7 +29,6 @@ This repository provides guidance and examples for setting up **AWS API Gateway 
 6. Test your API
 7. Create Custom Domain in Gateway API
 8. Create Route53 entry for Regional API
-9. Clean up
 
 ## 1. Create an Amazon ECS service
 
