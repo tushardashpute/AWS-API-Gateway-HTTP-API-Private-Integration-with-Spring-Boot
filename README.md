@@ -14,6 +14,38 @@ This repository provides guidance and examples for setting up **AWS API Gateway 
 
 ## Table of Contents  
 
+
+1. Create an Amazon ECS service
+2. Create a VPC link
+3. Create an HTTP API
+4. Create a route
+5. Create an integration
+6. Test your API
+7. Clean up
+
+## 1. Create an Amazon ECS service
+
+To create an AWS CloudFormation stack
+Open the AWS CloudFormation console at https://console.aws.amazon.com/cloudformation.
+
+Choose Create stack and then choose With new resources (standard).
+
+For Specify template, choose Upload a template file.
+
+Select the template that you downloaded.
+
+Choose Next.
+
+For Stack name, enter http-api-private-integrations-tutorial and then choose Next.
+
+For Configure stack options, choose Next.
+
+For Capabilities, acknowledge that AWS CloudFormation can create IAM resources in your account.
+
+Choose Submit
+
+AWS CloudFormation provisions the ECS service, which can take a few minutes. When the status of your AWS CloudFormation stack is CREATE_COMPLETE, you're ready to move on to the next step.
+
 1. [Introduction](#introduction)  
 2. [Prerequisites](#prerequisites)  
 3. [Architecture Overview](#architecture-overview)  
@@ -34,9 +66,7 @@ AWS API Gateway supports private integrations, allowing you to securely connect 
 
 Before proceeding, ensure you have:  
 
-- An AWS account with administrative access.  
-- A configured VPC with subnets.  
-- A backend service running within the VPC, such as ECS, ALB, or NLB.  
+- An AWS account with administrative access.    
 - AWS CLI installed and configured.  
 
 ## Architecture Overview  
